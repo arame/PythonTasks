@@ -51,8 +51,6 @@ def calc_tf_idf(documents):
     df_tf_idf = df_tf * df_idf
     logging.info(df_tf_idf)
 
-    i = 0
-
 if __name__ == "__main__":
     documents = ["This must be Thursday,' said Arthur to himself, sinking low over his beer. 'I never could get the hang of Thursdays", 
                  "Ford... you're turning into a penguin. Stop it.",
